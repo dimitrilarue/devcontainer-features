@@ -1,0 +1,10 @@
+{
+    "name": "Git Town (via script)",
+    "id": "git-town-script",
+    "version": "1.0.0",
+    "description": "Git Town adds Git commands that make software development more efficient by keeping Git branches better in sync with each other. This reduces merge conflicts and the number of Git commands you need to run.",
+    "dependsOn": {
+        "ghcr.io/devcontainers-contrib/features/curl-apt-get:1": {},
+        "ghcr.io/devcontainers/features/git:1": {}
+    }
+}
