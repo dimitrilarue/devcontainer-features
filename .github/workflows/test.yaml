@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - git-town
+          - git-town-script
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -33,7 +33,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - git-town
+          - git-town-script
     steps:
       - uses: actions/checkout@v3
 
